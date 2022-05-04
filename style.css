@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Space+Mono&display=swap');
+
+body {
+font-family: 'Comfortaa', cursive;
+text-align: center;
+background-color: #FDF6F0;
+background-image: url('./images/fond_cube.jpg');
+letter-spacing: 3px;
+}
+
+h2 {
+  color: #FF9999;
+  font-size: 32px;
+  font-weight: 500;
+  position: absolute;
+  left: 193px;
+}
+
+p {
+  color: #EF9C6C;
+  font-weight: 500;
+  font-size: 18px;
+  position: absolute;
+  top: 433px;
+  left: 33px;
+}
+
+.btn_pink {
+  text-decoration: none;
+  color: #FDF6F0;
+  background-color: #FF9999;
+  padding: 19px;
+  border-radius: 43px;
+  font-weight: 500;
+  border: 5px solid #FF7070;
+  position: absolute;
+  bottom: -26px;
+  left: 265px;
+}
+
+.card {
+  padding: 8px;
+  padding-bottom: 45px;
+  margin: 0 auto;
+  margin-top: 16px;
+  background-color: #FAEADB;
+  width: 700px;
+  border-radius: 56px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  position: relative;
+  left: 30px;
+}
+
+#intro {
+  top: 361px;
+}
+
+#title_hello {
+  width: 269px;
+  position: absolute;
+  z-index: 2;
+  left: 143px;
+}
+
+#profile_pic {
+  width: 232px;
+  border-radius: 72px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border: 5px solid #FF9999;
+  position: absolute;
+  top: 122px;
+  left: 244px;
+}
+
+
+#primary_card {
+  padding-bottom: 542px;
+}
+
+#follow_me {
+  margin-top: 56px;
+  padding-bottom: 158px;
+}
+
+#icons {
+  display: inline-flex;
+  font-size: 48px;
+  padding: 0px;
+  margin: -6px;
+  list-style: none;
+
+  letter-spacing: 32px;
+  position: absolute;
+  left: 264px;
+  top: 90px;
+}
+a {
+color: #EF9C6C;
+}
+
+a:hover {
+  color: #FF9999;
+}
